@@ -23,6 +23,14 @@
 - главное меню и кнопки навигации;
 - технологическая, магическая и исследовательская терминология.
 
+## Скриншоты
+
+| Главное меню | Квестовая книга |
+|---|---|
+| [![Переведённое главное меню](docs/screenshots/main-menu.jpg)](docs/screenshots/main-menu.jpg) | [![Квесты Applied Energistics 2](docs/screenshots/quest-applied-energistics.jpg)](docs/screenshots/quest-applied-energistics.jpg) |
+| [![Переведённое описание задания](docs/screenshots/quest-void-shimmering-slime.jpg)](docs/screenshots/quest-void-shimmering-slime.jpg) | [![Переведённая подсказка предмета](docs/screenshots/item-tooltip-manhattan-module.jpg)](docs/screenshots/item-tooltip-manhattan-module.jpg) |
+| [![Подробная инструкция к заданию](docs/screenshots/quest-drone-port.jpg)](docs/screenshots/quest-drone-port.jpg) | [![Переведённый список материалов](docs/screenshots/materials-repair-bonus.jpg)](docs/screenshots/materials-repair-bonus.jpg) |
+
 ## Установка
 
 1. Установите оригинальную [All the Mods 10: Aeronautics](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-aeronautics) версии **0.5.1** через CurseForge.
