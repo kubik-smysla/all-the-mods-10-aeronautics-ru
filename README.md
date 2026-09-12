@@ -1,8 +1,6 @@
 # Кубик Смысла — All the Mods 10: Aeronautics RU
 
-<p align="center">
-  <img src="docs/kubik-smysla.png" alt="Кубик Смысла" width="180">
-</p>
+![All the Mods 10: Aeronautics — полный русский перевод](docs/all-the-mods-10-aeronautics-ru-cover.png)
 
 [⬇️ **Скачать русский перевод v1.0.0 одним ZIP-файлом**](https://github.com/kubik-smysla/all-the-mods-10-aeronautics-ru/releases/download/v1.0.0/Kubik_Smysla_All_the_Mods_10_Aeronautics_RU_0.5.1_v1.0.0.zip)
 
