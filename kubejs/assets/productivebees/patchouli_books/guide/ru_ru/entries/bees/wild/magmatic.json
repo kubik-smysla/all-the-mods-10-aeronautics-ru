@@ -1,0 +1,18 @@
+{
+  "name": "Магматическая пчела",
+  "icon": "minecraft:magma_block",
+  "read_by_default": true,
+  "category": "productivebees:bees_wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Магматическая пчела",
+      "text": "Обитает в гнёздах из незерских кирпичей в крепостях Нижнего мира. Предпочитает опылять магмовые блоки и незерский нарост.$(br)Тщательно выбирайте материал для вольера: эти вредины умеют превращать булыжник в лаву.",
+      "anchor": "magmatic"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:magmatic'}"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "_comment": "Интерфейс",
+  "item.zerocore.debugtool": "Отладочный инструмент",
+  "zerocore:debugTool.block.tooltip1": "Нажмите ПКМ по блоку, чтобы увидеть отладочную информацию",
+  "zerocore:debugTool.block.tooltip2": "По умолчанию запросы выполняются на стороне сервера",
+  "zerocore:debugTool.block.tooltip3a": "В присяде: ",
+  "zerocore:debugTool.block.tooltip3b": "запрос на стороне клиента"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Дрон-сборщик урожая",
+  "icon": "pneumaticcraft:harvesting_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Дрон-сборщик урожая/$ — специализированный непрограммируемый вариант $(l:tools/drone)дрона/$. Он выполняет задачи $(l:programming/harvest)сбора урожая и рубки деревьев/$ в области 17×17×17 блоков вокруг точки запуска, но $(italic)не подбирает/$ добытые предметы."
+    },
+    {
+      "type": "spotlight",
+      "title": "Автоматическая зарядка",
+      "item": "pneumaticcraft:charging_station",
+      "text": "Как и любому дрону, логистическому требуется $(l:base_concepts/pressure)давление/$. Когда воздух заканчивается, он сам ищет $(l:tools/drone#charging)зарядную станцию с улучшением раздатчика/$."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:harvesting_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "title": "Использование инструмента",
+      "text": "Если запустить $(item)дрона-сборщика урожая/$ $(thing)правым щелчком с приседанием/$ по хранилищу, где лежит только $(item)мотыга/$, дрон будет пересаживать урожай и откажется работать без мотыги. Если повторная посадка не нужна, запустите его по любому другому блоку."
+    },
+    {
+      "type": "crafting",
+      "text": "Дроны-сборщики урожая каким-то образом научились рубить деревья мотыгой вместо топора. Умные машины.",
+      "recipe": "pneumaticcraft:harvesting_drone"
+    }
+  ]
+}

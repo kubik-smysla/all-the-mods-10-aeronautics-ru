@@ -1,0 +1,6 @@
+{
+  "name": "Пчёлы-профессионалы",
+  "description": "Помимо пчёл, производящих ресурсы, существуют пчёлы с особыми занятиями.",
+  "icon": "minecraft:wooden_hoe",
+  "parent": "productivebees:bees"
+}

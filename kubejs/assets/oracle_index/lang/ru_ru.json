@@ -1,0 +1,11 @@
+{
+  "oracle_index.button.content": "Содержание",
+  "oracle_index.button.docs": "Документация",
+  "oracle_index.callout.danger": "Опасность",
+  "oracle_index.callout.default": "Примечание",
+  "oracle_index.callout.info": "Сведения",
+  "oracle_index.callout.warning": "Предупреждение",
+  "oracle_index.tooltip.docs": "Удерживайте Alt для просмотра документации",
+  "tooltip.oracle_index.back": "Вернуться на предыдущую страницу.",
+  "tooltip.oracle_index.close_screen": "Закрыть справочник."
+}

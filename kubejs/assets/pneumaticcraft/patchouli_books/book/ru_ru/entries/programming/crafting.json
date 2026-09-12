@@ -1,0 +1,29 @@
+{
+  "name": "Элемент «Создание»",
+  "icon": "pneumaticcraft:textures/progwidgets/craft_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ создаёт предметы из содержимого своего инвентаря. Чтобы задать рецепт, разместите $(l:programming/item_filter)фильтры предметов/$ справа от элемента «Создание» в том же порядке, что и ингредиенты в сетке верстака.$(p)Необязательно использовать ровно девять $(thing)фильтров/$ — достаточно воспроизвести форму рецепта."
+    },
+    {
+      "type": "text",
+      "text": "По умолчанию элемент пытается создать максимально возможное количество предметов. Ограничить его можно параметром $(thing)«Использовать количество»/$.$(p)Скорее всего, $(item)дрону/$ понадобятся $(l:base_concepts/upgrades#dispenser)улучшения инвентаря/$, чтобы вместить все ингредиенты и результат."
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "title": "Интеграция с JEI",
+      "text": "Фильтры предметов для элемента «Создание» удобно настраиваются через JEI. Подробности находятся на $(l:programming/programmer#jei)этой странице/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/craft_piece.png"
+      ],
+      "text": "$(italic)Элемент «Создание»/$"
+    }
+  ]
+}

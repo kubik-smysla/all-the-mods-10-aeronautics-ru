@@ -1,0 +1,22 @@
+{
+  "name": "Логистический настройщик",
+  "icon": "pneumaticcraft:logistics_configurator",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Логистический настройщик/$ предназначен прежде всего для настройки $(l:logistics/overview)логистической системы/$.$(p)Щёлкните им $(thing)ПКМ/$ по любой $(l:logistics/frames)логистической рамке/$, чтобы настроить её фильтры.$(p)Щелчок $(thing)ПКМ в приседе/$ снимает рамку с хранилища."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:logistics_configurator",
+      "text": "$(item)Логистическим настройщиком/$ можно снимать и другие приспособления. Для этого щёлкните по ним $(thing)ПКМ в приседе/$. Так снимаются, например, $(l:semiblocks/transfer_gadget)передающее приспособление/$ и $(l:semiblocks/crop_support)опора для растений/$."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание логистического настройщика",
+      "recipe": "pneumaticcraft:logistics_configurator"
+    }
+  ]
+}

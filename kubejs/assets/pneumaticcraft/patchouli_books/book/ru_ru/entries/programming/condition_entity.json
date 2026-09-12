@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Условие: существо»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_entity_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это элемент $(l:programming/conditions)«Условие»/$.$(p)$(thing)«Условие: существо»/$ подсчитывает существ в подключённой $(l:programming/area)области/$. Необязательный элемент $(l:programming/text)«Текст»/$ может работать как $(l:base_concepts/entity_filter)фильтр существ/$."
+    },
+    {
+      "type": "text",
+      "text": "Подключённые элементы $(l:programming/area)«Область»/$ должны иметь форму $(thing)параллелепипеда/$ — это единственный поддерживаемый тип. Более сложную зону можно получить сочетанием областей из белого и чёрного списков."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_entity_piece.png"
+      ],
+      "text": "$(italic)Элемент «Условие: существо»/$"
+    }
+  ]
+}

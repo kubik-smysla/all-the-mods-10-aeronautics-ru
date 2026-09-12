@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Виноградные лозы растут подобно пещерным и дают съедобные плоды.\n\nИх сажают на нижнюю сторону блока; со временем лоза разрастается вниз и начинает плодоносить.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/grapes/grapes.png",
+          "caption": "herbsandharvest.guide_book.chapters.grapes.grapes_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "Как и пещерные лозы, виноград можно ускорять костной мукой.\n\nВиноград растёт на шпалерах в деревнях, а также встречается в сундуках Верхнего мира.",
+          "text": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_100.description": "Запущено 100% парусов. Дневной свет теперь доступен по подписке.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_100.title": "Поздравляем! Солнечный свет теперь ваш",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_15.description": "Запущено 15% парусов. Местные фотоны уже подали жалобу.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_15.title": "Слегка тревожное окружение Солнца",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_25.description": "Запущено 25% парусов. Четверть пути к космическому безумию пройдена.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_25.title": "Четверть сферы, амбиции на все сто",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_5.description": "Запущено 5% парусов. Солнце почти ничего не заметило. Наверное.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_5.title": "Солнце поставлено в известность",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_50.description": "Запущено 50% парусов. Половина сферы — и вдвое больше самоуверенности.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_50.title": "На полпути к звёздному арендодателю",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_75.description": "Запущено 75% парусов. Солнце всерьёз обдумывает пути отступления.",
+  "advancement.dysoncubeproject.em_railejector_controller/sphere_percentage_75.title": "Солнце начинает нервничать",
+  "advancement.dysoncubeproject.root.description": "СЕГОДНЯ МЫ УКРАДЁМ СОЛНЦЕ!",
+  "advancement.dysoncubeproject.root.title": "Проект «Куб Дайсона»",
+  "gui.dysoncubeproject.unsubscribe": "Отписаться от всех сфер (вы вернётесь к своей сфере)",
+  "itemGroup.dyson_cube_project": "Проект «Куб Дайсона»",
+  "tooltip.dysoncubeproject.power_optional": "*Питание необязательно, но с ним можно увеличить скорость запуска лучей и парусов*"
+}

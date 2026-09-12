@@ -1,0 +1,17 @@
+{
+  "name": "Червь «СТОП!»",
+  "icon": "pneumaticcraft:stop_worm",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это особый компонент, применяемый только при взломе $(l:machines/security_station)станций безопасности/$. Создать его нельзя: он встречается в сокровищницах подземелий и изредка продаётся у жителей."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:stop_worm",
+      "text": "Применённый во время взлома $(thing)червь «СТОП!»/$ ненадолго заморозит $(l:components/network_components#diagnostic)диагностическую подпрограмму/$ станции и приостановит отслеживание."
+    }
+  ]
+}

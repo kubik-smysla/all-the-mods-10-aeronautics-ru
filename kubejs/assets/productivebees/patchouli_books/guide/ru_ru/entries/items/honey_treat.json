@@ -1,0 +1,12 @@
+{
+  "name": "Медовое лакомство",
+  "icon": "productivebees:honey_treat",
+  "category": "productivebees:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:honey_treat",
+      "text": "Медовым лакомством можно успокоить разозлённую пчелу, а детёныш благодаря ему вырастет быстрее.$(br2)Лакомства также объединяются с генами и позволяют переносить характеристики между пчёлами. Подробнее — на странице о $(l:genetics/transferring)генетике$(/l)."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Условие дрона: существо»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_entity_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это элемент $(l:programming/conditions)«Условие»/$.$(p)$(thing)«Условие дрона: существо»/$ проверяет, кого сейчас переносит $(l:tools/drone)дрон/$. Необязательный элемент $(l:programming/text)«Текст»/$ задаёт $(l:base_concepts/entity_filter)фильтр существ/$. Без элемента $(thing)«Текст»/$ условие истинно при наличии $(italic)любого/$ пассажира."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_entity_piece.png"
+      ],
+      "text": "$(italic)Элемент «Условие дрона: существо»/$"
+    }
+  ]
+}

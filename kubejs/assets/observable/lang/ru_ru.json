@@ -1,0 +1,9 @@
+{
+  "category.observable.keybinds": "Observable",
+  "text.observable.after_save": "Откройте созданный файл: %s",
+  "text.observable.announce": "В сборке установлен Observable для поиска источников задержек. Инструкция: %s",
+  "text.observable.cmd": "Observable — серверный профилировщик сущностей, помогающий найти источник задержек. Подробнее: %s",
+  "text.observable.discord": "Discord",
+  "text.observable.docs": "Вики",
+  "text.observable.minRate": "Минимальное отображаемое время (мкс/т):"
+}

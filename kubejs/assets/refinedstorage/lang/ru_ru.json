@@ -1,0 +1,16 @@
+{
+  "gui.refinedstorage.crafting_grid.press_shift_cmd_to_only_show_items_used_in_crafting": "Нажмите Shift + Cmd, чтобы показать только предметы из рецепта.",
+  "gui.refinedstorage.grid.cmd_click_to_autocraft": "Cmd + щелчок — запустить автокрафт",
+  "gui.refinedstorage.grid.search_help.tag_search": "Введите «#», чтобы искать ресурсы по определённому тегу",
+  "gui.refinedstorage.grid.search_help.tooltip_search": "Введите «$», чтобы искать ресурсы по тексту подсказки",
+  "gui.refinedstorage.priority.storage_help.alt_click_to_modify_extract_priority": "Alt + щелчок — изменить приоритет извлечения.",
+  "gui.refinedstorage.priority.storage_help.click_to_modify_insert_extract_priority": "Щелчок — изменить приоритет помещения и извлечения.",
+  "gui.refinedstorage.priority.storage_help.cmd_click_to_modify_insert_priority": "Cmd + щелчок — изменить приоритет помещения.",
+  "gui.refinedstorage.priority.storage_help.ctrl_click_to_modify_insert_priority": "Ctrl + щелчок — изменить приоритет помещения.",
+  "item.refinedstorage.controller.not_needed_because_energy_is_not_required": "Refined Storage настроен для работы без энергии. Контроллер не требуется и ни на что не влияет; он показан лишь для справки.",
+  "item.refinedstorage.interface.help": "Объединяет импорт и экспорт через промежуточные слоты. Внешние хранилища должны самостоятельно помещать и извлекать предметы.",
+  "item.refinedstorage.regulator_upgrade.cleared_configuration": "Настройки очищены.",
+  "mod.refinedstorage": "Refined Storage",
+  "text.autoconfig.refinedstorage.option.requireEnergy": "Требовать энергию",
+  "text.autoconfig.refinedstorage.option.requireEnergy.tooltip": "Определяет, нужна ли сетям и предметам энергия. Если выключено, сеть может работать без контроллера."
+}

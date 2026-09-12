@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Координата»",
+  "icon": "pneumaticcraft:textures/progwidgets/coordinate_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Элемент $(thing)«Координата»/$ используется только как параметр для элементов $(l:programming/coordinate_operator)«Оператор координат»/$ и $(l:programming/condition_coordinate)«Условие: координата»/$.$(p)Он похож на $(l:programming/area)«Область»/$, но элемент $(thing)«Область»/$ принимает $(italic)две/$ точки, а «Координата» — только $(italic)одну/$. Задать её можно двумя способами:"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Постоянная/$$(br)Постоянная координата всегда остаётся неизменной. Выберите точку из $(l:tools/gps_tool)GPS-инструмента/$ или вручную введите X/Y/Z в поля.$(p)$(bold)Переменная/$$(br)В этом режиме координатой становится значение из $(l:programming/variables)переменной/$. Здесь его можно только прочитать — изменить переменную этим элементом нельзя!"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/coordinate_piece.png"
+      ],
+      "text": "$(italic)Элемент «Координата»/$"
+    }
+  ]
+}

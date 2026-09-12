@@ -1,0 +1,23 @@
+{
+  "name": "Надпись",
+  "icon": "pneumaticcraft:textures/progwidgets/label_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот элемент управляет только $(l:programming/flow_control)ходом программы/$. Метка задаёт точку, к которой могут перейти элементы $(l:programming/jump)«Переход»/$ и $(l:programming/conditions)«Условие»/$. Чтобы дать ей имя, подключите элемент $(l:programming/text)«Текст»/$. Все переходы и условия с одноимённым элементом $(thing)«Текст»/$ будут вести к этой метке."
+    },
+    {
+      "type": "text",
+      "text": "Элемент $(thing)«Метка»/$ создаёт $(italic)ветвь/$ программы при работе с $(l:programming/conditions)условиями/$ или просто помогает разложить части программы рядом для удобства. Включите флажок $(bold)«Показать ход»/$ в левом нижнем углу $(l:programming/programmer)программатора/$ — линии свяжут одноимённые элементы $(thing)«Переход/Условие/Метка»/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/label_piece.png"
+      ],
+      "text": "$(italic)Элемент «Метка»/$"
+    }
+  ]
+}

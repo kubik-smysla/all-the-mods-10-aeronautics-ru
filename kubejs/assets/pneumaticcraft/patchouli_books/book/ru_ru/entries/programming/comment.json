@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Комментарий»",
+  "icon": "pneumaticcraft:textures/progwidgets/comment_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот элемент добавляет в программу $(thing)комментарий/$ и никак не влияет на её работу. Для него не расходуются $(l:programming/puzzle_pieces)элементы мозаики/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/comment_piece.png"
+      ],
+      "text": "$(italic)Элемент «Комментарий»/$"
+    }
+  ]
+}

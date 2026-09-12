@@ -1,0 +1,21 @@
+{
+  "name": "Пневматический ключ",
+  "icon": "pneumaticcraft:pneumatic_wrench[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пневматический ключ — основной $(thing)инструмент для механизмов/$ $(pncr). Он умеет:$(p)$(li)поворотом по $(thing)правому щелчку/$ менять ориентацию обычных и модифицированных блоков;$(li)при $(thing)приседании и правом щелчке/$ снимать механизмы $(pncr), сохраняя установленные улучшения и воздух."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)Правый щелчок/$ по $(l:base_concepts/drones)дрону/$ разбирает его обратно в предмет.$(li)$(thing)Правый щелчок/$ по $(l:tubes/pressure_tubes)напорной трубе/$ открывает или закрывает выбранную сторону, разделяя сети.$(p)Перед использованием $(item)пневматический ключ/$ нужно заправить в $(l:machines/charging_station)зарядной станции/$."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание пневматического ключа",
+      "recipe": "pneumaticcraft:pneumatic_wrench"
+    }
+  ]
+}

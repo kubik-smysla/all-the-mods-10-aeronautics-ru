@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Экспорт существа»",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ летит в указанную $(l:programming/area)область/$ и отпускает переносимое существо, если оно разрешено необязательным $(l:base_concepts/entity_filter)фильтром существ/$ в подключённом элементе $(l:programming/text)«Текст»/$.$(p)Смотрите также элемент $(l:programming/entity_import)«Импорт существа»/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_export_piece.png"
+      ],
+      "text": "$(italic)Элемент «Экспорт существа»/$"
+    }
+  ]
+}

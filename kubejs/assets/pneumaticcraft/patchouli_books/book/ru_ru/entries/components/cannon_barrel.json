@@ -1,0 +1,17 @@
+{
+  "name": "Орудийный ствол",
+  "icon": "pneumaticcraft:cannon_barrel",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это компонент для создания других устройств. Сам по себе он не используется."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание орудийного ствола",
+      "recipe": "pneumaticcraft:cannon_barrel"
+    }
+  ]
+}

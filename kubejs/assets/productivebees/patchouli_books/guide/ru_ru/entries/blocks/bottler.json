@@ -1,0 +1,39 @@
+{
+  "name": "Разливочная машина",
+  "icon": "productivebees:bottler",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:bottler",
+      "text": "Разливает мёд и другие жидкости по бутылочкам. Мёд можно подавать сбоку по трубам или поставить машину рядом с центрифугой для автоматического наполнения.$(br2)Вместе с поршнем разливочная машина также помещает пчёл в бутылочки. Подробнее — на странице о $(l:genetics/transferring)генетике$(/l)."
+    },
+    {
+      "type": "multiblock",
+      "name": "Разливочная машина с центрифугой",
+      "multiblock": {
+        "mapping": {
+          "H": "productivebees:centrifuge",
+          "E": "productivebees:bottler"
+        },
+        "pattern": [
+          [
+            "H",
+            "E"
+          ],
+          [
+            "0",
+            " "
+          ]
+        ],
+        "symmetrical": true,
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "enable_visualize": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Медовый генератор",
+  "icon": "productivebees:honey_generator",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:honey_generator",
+      "text": "Сжигает мёд и вырабатывает энергию. Мёд можно подавать по трубам либо загружать через интерфейс в бутылках, блоках и вёдрах."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "В медовый генератор можно установить два улучшения. $(l:items/upgrades#productivity)Улучшение продуктивности$(/l) снижает расход мёда, а $(l:items/upgrades#speed)улучшение скорости$(/l) повышает… ну, скорость."
+    }
+  ]
+}

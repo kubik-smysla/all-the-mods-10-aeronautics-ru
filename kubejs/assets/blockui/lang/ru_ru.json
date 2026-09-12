@@ -1,0 +1,6 @@
+{
+  "blockui.config.default.boolean": "[По умолчанию: %s]",
+  "blockui.config.default.enum": "[По умолчанию: %s; варианты: %s]",
+  "blockui.config.default.number": "[По умолчанию: %s; минимум: %s; максимум: %s]",
+  "blockui.config.default.string": "[По умолчанию: %s]"
+}

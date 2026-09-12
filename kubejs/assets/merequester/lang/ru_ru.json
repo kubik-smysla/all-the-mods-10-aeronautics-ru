@@ -1,0 +1,7 @@
+{
+  "item.merequester.wireless_requester_terminal": "Беспроводной терминал запросов",
+  "itemGroup.merequester.tab": "Заказчик МЭ",
+  "key.ae2.wireless_requester_terminal": "Открыть беспроводной терминал запросов",
+  "tooltip.merequester.cpu": "Нет процессора",
+  "tooltip.merequester.cpu_desc": "Система не нашла подходящий процессор для крафта. Задание продолжится, когда процессор освободится."
+}

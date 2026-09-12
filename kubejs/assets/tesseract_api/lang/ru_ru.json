@@ -1,0 +1,5 @@
+{
+  "text.tesseract_api.mi_machine_batcher_recipe": "Может выполнять по %s рецептов за один цикл.",
+  "text.tesseract_api.mi_machine_batcher_size_and_cost": "Выполняет до %d операций за цикл, расходуя %s от обычного количества EU.",
+  "text.tesseract_api.tooltips_shift_required": "Нажмите [Shift], чтобы узнать подробности"
+}

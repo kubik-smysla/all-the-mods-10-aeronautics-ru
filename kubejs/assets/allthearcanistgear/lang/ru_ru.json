@@ -1,0 +1,12 @@
+{
+  "allthearcanistgear.perk_desc.thread_flight": "Даёт творческий полёт. Должна быть установлена в слот не ниже 4-го уровня.",
+  "allthearcanistgear.perk_desc.thread_spectral_sight": "Даёт призрачное зрение, позволяющее видеть существ сквозь стены. Каждый уровень увеличивает радиус обзора на 8 блоков.",
+  "allthearcanistgear.perk_desc.thread_truesight": "Даёт истинное зрение и помогает лучше видеть окружающий мир. Уровень 1 даёт ночное зрение, уровень 2 — невосприимчивость к слепоте, уровень 3 — невосприимчивость к тьме, а уровень 4 позволяет видеть в лаве.",
+  "allthearcanistgear.perk_desc.thread_vitality": "Каждый уровень добавляет одно сердце здоровья.",
+  "allthearcanistgear.thread_of": "Нить %s",
+  "item.allthearcanistgear.thread_flight": "Полёт",
+  "item.allthearcanistgear.thread_spectral_sight": "Призрачное зрение",
+  "item.allthearcanistgear.thread_truesight": "Истинное зрение",
+  "item.allthearcanistgear.thread_vitality": "Живучесть",
+  "tab.allthearcanistgear.armor": "Всё снаряжение чародея"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Пневматическая дверь",
+  "icon": "pneumaticcraft:pneumatic_door",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пневматическая дверь автоматически открывается при приближении игрока, если ей хватает $(l:base_concepts/pressure)давления/$. Начальная дальность обнаружения — 2 блока; $(l:base_concepts/upgrades#range)улучшения дальности/$ увеличивают её.$(p)Для сборки $(thing)пневматической двери/$ установите $(thing)основание/$ на уровне $(italic)верхней половины/$ самой двери."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pneumatic_door.png"
+      ],
+      "text": "$(italic)Двойная пневматическая дверь: левая сторона $(l:tools/camo_applicator)замаскирована/$$(italic), правая — нет/$"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:security_station",
+      "text": "Если $(item)основание пневматической двери/$ находится в зоне работающей $(l:machines/security_station)станции безопасности/$, дверь открывается только для доверенных $(thing)станцией/$ игроков."
+    },
+    {
+      "type": "text",
+      "title": "Режимы работы",
+      "text": "У $(thing)пневматической двери/$ есть три режима, выбираемых в настройках основания:$(li)$(thing)«Игрок рядом»/$ — открывается при приближении;$(li)$(thing)«Рядом и смотрит»/$ — открывается, если игрок находится поблизости $(italic)и/$ смотрит на дверь;$(li)$(thing)«Деревянная дверь»/$ — ведёт себя как обычная $(item)деревянная дверь/$."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_door",
+      "recipe2": "pneumaticcraft:pneumatic_door_base"
+    }
+  ]
+}

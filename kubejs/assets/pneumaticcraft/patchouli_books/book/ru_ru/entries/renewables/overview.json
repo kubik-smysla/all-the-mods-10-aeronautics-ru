@@ -1,0 +1,38 @@
+{
+  "name": "Как получить биодизель",
+  "icon": "minecraft:book",
+  "category": "pneumaticcraft:renewables",
+  "priority": "true",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Краткая схема производства возобновляемого $(thing)биодизеля/$. Выполняйте шаги по порядку, а подробности ищите на других страницах раздела. Некоторые страницы открываются только после соответствующих достижений."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:yeast_culture_bucket",
+      "text": "Шаг 1а. Получите $(thing)дрожжевую культуру/$: смешайте грибы и воду в $(l:manufacturing/thermopneumatic_processing_plant)термопневматической установке/$. Поддерживайте температуру от 30 до 60 °C; сложность зависит от биома и высоты."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:sugar",
+      "text": "Шаг 1б (необязательно). Получив хотя бы ведро дрожжевой культуры, её можно быстро размножить прямо в мире. Вылейте культуру в небольшое углубление, бросьте в неё сахар, а затем вылейте ведро воды в соседний блок — культура распространится в добавленную воду."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:ethanol_bucket",
+      "text": "Шаг 2. Получите $(thing)этанол/$, добавив $(thing)дрожжевую культуру/$ и $(thing)сахар/$ в $(l:manufacturing/thermopneumatic_processing_plant)термопневматическую установку/$. Температурные условия почти такие же, как на шаге 1а."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vegetable_oil_bucket",
+      "text": "Шаг 3. Выжмите $(thing)растительное масло/$ из $(thing)семян/$ или $(thing)урожая/$ в $(l:manufacturing/thermopneumatic_processing_plant)термопневматической установке/$ под небольшим давлением."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:biodiesel_bucket",
+      "text": "Шаг 4. Соедините $(thing)этанол/$ с $(thing)растительным маслом/$ в $(l:manufacturing/fluid_mixer)смесителе жидкостей/$. Готово — вы получили возобновляемое топливо!"
+    }
+  ]
+}

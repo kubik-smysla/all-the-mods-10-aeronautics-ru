@@ -1,0 +1,12 @@
+{
+  "name": "Камера разведения",
+  "icon": "productivebees:breeding_chamber",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:breeding_chamber",
+      "text": "В этой машине пчёл можно безопасно разводить. Поместите внутрь двух родительских пчёл, подходящие для них предметы размножения, подведите энергию и добавьте пустые клетки для потомства. Улучшения скорости ускоряют процесс."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Уничтожить жидкость»",
+  "icon": "pneumaticcraft:textures/progwidgets/void_fluid_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Подобно элементу $(l:programming/void_item)«Уничтожить предмет»/$, этот элемент мгновенно и навсегда удаляет жидкость из бака дрона. Настоятельно рекомендуется подключить $(l:programming/liquid_filter)фильтр жидкостей/$, чтобы уничтожались только разрешённые жидкости."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/void_fluid_piece.png"
+      ],
+      "text": "$(italic)Высохло до дна/$"
+    }
+  ]
+}

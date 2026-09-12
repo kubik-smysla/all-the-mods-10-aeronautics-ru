@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Экспорт жидкости»",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Обратное действие к $(l:programming/liquid_import)«Импорту жидкости»/$: $(l:tools/drone)дрон/$ летит к ближайшему резервуару в указанной $(l:programming/area)области/$ и перекачивает туда жидкость из своего бака.$(p)$(item)Дрон/$ умеет размещать жидкость прямо в мире — включите параметр $(thing)«Размещать жидкость в мире»/$. Осторожно: при такой работе $(item)дроны/$ легко загоняют себя в ловушку!"
+    },
+    {
+      "type": "text",
+      "text": "В настройках укажите стороны резервуара и максимальный объём экспорта в мБ.$(p)$(ttcolor)$(t:Справа подключается белый список, слева — чёрный)Подключите/$ $(l:programming/liquid_filter)фильтр жидкостей/$, чтобы ограничить экспорт.$(p)Элемент завершается, когда в баке $(item)дрона/$ не осталось подходящей жидкости либо ни один резервуар в области её не принимает."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_export_piece.png"
+      ],
+      "text": "$(italic)Элемент «Экспорт жидкости»/$"
+    }
+  ]
+}

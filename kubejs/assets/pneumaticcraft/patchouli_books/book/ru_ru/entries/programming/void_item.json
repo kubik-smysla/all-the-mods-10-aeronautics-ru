@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Уничтожить предмет»",
+  "icon": "pneumaticcraft:textures/progwidgets/void_item_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Элемент мгновенно и безвозвратно уничтожает предметы в инвентаре дрона — будьте осторожны! Настоятельно рекомендуется подключить $(l:programming/item_filter)фильтр предметов/$, чтобы удалялось только разрешённое содержимое.$(p)Работа заканчивается, когда в инвентаре $(item)дрона/$ не осталось подходящих предметов."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/void_item_piece.png"
+      ],
+      "text": "$(italic)Всё равно не пригодилось бы/$"
+    }
+  ]
+}

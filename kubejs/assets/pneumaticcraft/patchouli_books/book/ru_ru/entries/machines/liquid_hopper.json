@@ -1,0 +1,28 @@
+{
+  "name": "Жидкостная воронка",
+  "icon": "pneumaticcraft:liquid_hopper",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Жидкостная воронка/$ перемещает жидкости. Как и у $(l:machines/omnidirectional_hopper)всенаправленной воронки/$, её вход и выход можно ориентировать в любую сторону по тем же правилам установки и поворота. $(l:base_concepts/upgrades#speed)Улучшения скорости/$ повышают пропускную способность."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:liquid_hopper",
+      "text": "$(item)Жидкостная воронка/$ забирает жидкость из предметов, лежащих перед её $(9)входом/$, и наполняет предметы перед $(6)выходом/$. Это работает с вёдрами воды и лавы, а также с ёмкостями других модов."
+    },
+    {
+      "type": "text",
+      "title": "Улучшение раздатчика",
+      "flag": "pneumaticcraft:liquidHopperDispenser",
+      "text": "С $(l:base_concepts/upgrades#dispenser)улучшением раздатчика/$ $(item)жидкостная воронка/$ поглощает блок жидкости объёмом 1000 мБ со стороны $(9)входа/$ и размещает 1000 мБ хранимой жидкости со стороны $(6)выхода/$. Так её можно использовать, например, как водяной насос.$(p)Она также поглощает $(item)сферы опыта/$ у входа и превращает их в $(l:base_concepts/memory_essence)эссенцию памяти/$."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание жидкостной воронки",
+      "recipe": "pneumaticcraft:liquid_hopper"
+    }
+  ]
+}

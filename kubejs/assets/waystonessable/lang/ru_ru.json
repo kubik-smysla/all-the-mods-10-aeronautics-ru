@@ -1,0 +1,6 @@
+{
+  "commands.waystones.activateall.success.multiple": "Активировано путеводных обелисков: %s для %s игроков",
+  "commands.waystones.activateall.success.single": "Активировано путеводных обелисков: %s для %s",
+  "gui.waystonessable.waystone_group.sable": "Подуровни Sable",
+  "waystones.groups.sable": "Подуровни Sable"
+}

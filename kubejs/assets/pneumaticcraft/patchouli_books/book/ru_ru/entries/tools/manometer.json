@@ -1,0 +1,23 @@
+{
+  "name": "Манометр",
+  "icon": "pneumaticcraft:manometer[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Манометр измеряет $(l:base_concepts/pressure)давление/$ в пневматической сети и показывает дополнительные сведения о некоторых механизмах и трубах. Например, у $(l:tubes/safety_module)предохранительного модуля/$ он отображает порог срабатывания. Полезный инструмент, если не хочется рассчитывать всё сигналами красного камня."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание манометра",
+      "recipe": "pneumaticcraft:manometer"
+    },
+    {
+      "type": "text",
+      "title": "Другие моды",
+      "flag": "|mod:theoneprobe,mod:hwyla",
+      "text": "При наличии модов вроде $(thing)The One Probe/$ или $(thing)WAILA/HWYLA/$ необходимость в $(item)манометре/$ заметно уменьшается."
+    }
+  ]
+}

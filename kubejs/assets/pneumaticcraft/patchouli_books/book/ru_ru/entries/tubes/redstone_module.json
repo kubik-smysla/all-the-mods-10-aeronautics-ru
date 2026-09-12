@@ -1,0 +1,29 @@
+{
+  "name": "Модуль красного камня",
+  "icon": "pneumaticcraft:redstone_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот модуль обменивается $(#f00)сигналами красного камня/$ с такими же модулями на соединённых трубах, превращая трубопровод в линию передачи сигнала.$(p)В интерфейсе доступно 16 независимых каналов; канал также можно выбрать правым щелчком с любым $(item)красителем/$.$(p)Щелчок $(item)ключом/$ переключает модуль между приёмом и выдачей сигнала."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/redstone_module.png"
+      ],
+      "border": "true"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "После установки $(l:tubes/module_expansion_card)карты расширения/$ появляются дополнительные способы обработки сигнала. В $(thing)режиме выхода/$ откройте интерфейс правым щелчком и выберите операцию: инверсию либо логическое И, ИЛИ или исключающее ИЛИ с другим каналом.$(p)Действие каждого режима подробно описано в интерфейсе."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание модуля красного камня",
+      "recipe": "pneumaticcraft:redstone_module"
+    }
+  ]
+}

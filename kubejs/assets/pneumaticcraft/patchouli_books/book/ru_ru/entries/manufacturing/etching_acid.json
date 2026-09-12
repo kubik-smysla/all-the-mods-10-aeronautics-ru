@@ -1,0 +1,16 @@
+{
+  "name": "Травильный раствор",
+  "icon": "pneumaticcraft:etching_acid_bucket",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Травильный раствор используется для химической обработки $(l:components/pcb)печатных плат/$. Его получают в $(l:manufacturing/pressure_chamber)камере давления/$ и заливают в $(l:manufacturing/etching_tank)травильную ванну/$.$(p)Подробнее о производстве рассказано в статье о $(l:components/pcb)печатных платах/$."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/etching_acid"
+    }
+  ]
+}

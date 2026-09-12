@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Условие: красный камень»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_redstone_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это элемент $(l:programming/conditions)«Условие»/$.$(p)$(thing)«Условие: красный камень»/$ удалённо проверяет, соответствует ли сила сигнала красного камня у блоков в подключённой $(l:programming/area)области/$ заданному порогу."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_redstone_piece.png"
+      ],
+      "text": "$(italic)Элемент «Условие: красный камень»/$"
+    }
+  ]
+}

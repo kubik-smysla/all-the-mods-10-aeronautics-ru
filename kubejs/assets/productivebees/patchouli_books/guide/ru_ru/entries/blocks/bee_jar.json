@@ -1,0 +1,12 @@
+{
+  "name": "Банка с пчелой",
+  "icon": "productivebees:jar_oak",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:jar_oak",
+      "text": "Покажите миру свою коллекцию в красивом стеклянном сосуде, идеально подходящем для одной пчелы. Подайте в него через воронку или трубу $(l:items/bee_cage)клетку$(/l) с выбранной пчелой."
+    }
+  ]
+}

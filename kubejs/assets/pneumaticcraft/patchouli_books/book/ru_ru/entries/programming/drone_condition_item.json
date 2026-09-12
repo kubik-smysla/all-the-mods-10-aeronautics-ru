@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Условие дрона: предмет»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_inventory_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Элемент $(thing)«Условие дрона: предмет»/$ проверяет количество предметов в инвентаре $(l:tools/drone)дрона/$. Подключённый $(l:programming/item_filter)фильтр предметов/$ определяет, что считать; без фильтра учитывается всё содержимое."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_inventory_piece.png"
+      ],
+      "text": "$(italic)Элемент «Условие дрона: предмет»/$"
+    }
+  ]
+}

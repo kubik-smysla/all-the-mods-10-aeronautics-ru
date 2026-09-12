@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Условие: давление»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_pressure_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это элемент $(l:programming/conditions)«Условие»/$.$(p)$(thing)«Условие: давление»/$ удалённо проверяет, соответствует ли $(l:base_concepts/pressure)давление/$ в пневматических блоках подключённой $(l:programming/area)области/$ заданному порогу."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_pressure_piece.png"
+      ],
+      "text": "$(italic)Элемент «Условие: давление»/$"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "info.apothic_spawners.capturing": "Чары «Захват» дают шанс получить яйцо призыва убитого существа.\n \nШанс выпадения: %s%% за уровень",
+  "misc.apothic_spawners.off": "%s: выкл.",
+  "stat.apothic_spawners.youthful": "Детёныши",
+  "stat.apothic_spawners.youthful.desc": "Рассадник по возможности всегда создаёт детёнышей существ"
+}

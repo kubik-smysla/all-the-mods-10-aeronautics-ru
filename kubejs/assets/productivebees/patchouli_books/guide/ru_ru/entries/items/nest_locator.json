@@ -1,0 +1,16 @@
+{
+  "name": "Указатель гнёзд",
+  "icon": "productivebees:nest_locator",
+  "category": "productivebees:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:nest_locator",
+      "text": "Улавливает слабое жужжание ближайших гнёзд. Нажмите Shift+ПКМ указателем по гнезду или по блоку того типа, который хотите найти. Например, для поиска песчаных гнёзд подойдёт само гнездо или обычный песок. После настройки нажмите ПКМ ещё раз — указатель найдёт ближайшее гнездо выбранного типа."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivebees:nest_locator"
+    }
+  ]
+}

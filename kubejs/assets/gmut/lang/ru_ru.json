@@ -1,0 +1,13 @@
+{
+  "constants.gmut.key_category": "Mekanism — дополнительный блок гравитационной модуляции",
+  "constants.gmut.mod_name": "Дополнительный блок гравитационной модуляции",
+  "description.gmut.gravitational_modulating_additional_unit": "Требует блок гравитационной модуляции и добавляет новые возможности",
+  "key.gmut.vertical_speed": "Переключить множитель вертикальной скорости",
+  "module.gmut.enabled": "Включено",
+  "module.gmut.fix_fov": "Фиксировать угол обзора",
+  "module.gmut.fly_always": "Всегда игнорировать гравитацию",
+  "module.gmut.gravitational_modulating_additional_unit": "Дополнительный блок гравитационной модуляции",
+  "module.gmut.mute_modulating_sound": "Отключить звук модуляции",
+  "module.gmut.stop_immediately": "Останавливаться сразу",
+  "module.gmut.vertical_speed": "Множитель вертикальной скорости"
+}

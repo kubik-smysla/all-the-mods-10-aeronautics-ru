@@ -1,0 +1,32 @@
+{
+  "name": "Логистический дрон",
+  "icon": "pneumaticcraft:logistics_drone",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Логистический дрон/$ — особая разновидность $(l:tools/drone)дрона/$. Это $(thing)упрощённая модель/$: её нельзя программировать, и она выполняет $(italic)только/$ логистические задачи."
+    },
+    {
+      "type": "spotlight",
+      "title": "Автоматическая зарядка",
+      "item": "pneumaticcraft:charging_station",
+      "text": "Как и любому дрону, логистическому требуется $(l:base_concepts/pressure)давление/$. Когда воздух заканчивается, он сам ищет $(l:tools/drone#charging)зарядную станцию с улучшением раздатчика/$."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:logistics_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "text": "После запуска $(item)логистический дрон/$ обслуживает все хранилища и резервуары с $(l:logistics/frames)логистическими рамками/$ в области 33×33×33 блока. Центр области — место запуска дрона.$(p)Ему приходится много летать с грузом, поэтому полезны улучшения $(l:base_concepts/upgrades#speed)скорости/$ и $(l:base_concepts/upgrades#inventory)инвентаря/$: первое ускоряет движение, второе увеличивает вместимость."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:logistics_drone",
+      "text": "Создание логистического дрона"
+    }
+  ]
+}

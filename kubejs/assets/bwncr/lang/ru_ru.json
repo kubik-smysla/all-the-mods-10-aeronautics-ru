@@ -1,0 +1,20 @@
+{
+  "badwithernocookiereloaded.general.tooltip": "Основные глобальные звуки и события, которые можно отключить",
+  "badwithernocookiereloaded.localized settings.silenceus": "Пример: entity.sheep.step. Чтобы узнать названия других звуков, используйте /listen",
+  "badwithernocookiereloaded.xtra.tooltip": "Дополнительные отдельные звуки, которые можно отключить",
+  "bwncr.config.debugMode": "Режим отладки",
+  "bwncr.config.silenceDragon": "Заглушить дракона",
+  "bwncr.config.silenceLightning": "Заглушить молнию",
+  "bwncr.config.silenceTrader": "Заглушить странствующего торговца",
+  "bwncr.config.silenceUs": "Отключить выбранные звуки",
+  "bwncr.config.silenceWither": "Заглушить визера",
+  "bwncr.configuration.general": "Основные настройки",
+  "text.autoconfig.bwncr.option.general": "Основные настройки",
+  "text.autoconfig.bwncr.option.general.debugMode": "Режим отладки",
+  "text.autoconfig.bwncr.option.general.silenceDragon": "Заглушить дракона",
+  "text.autoconfig.bwncr.option.general.silenceLightning": "Заглушить молнию",
+  "text.autoconfig.bwncr.option.general.silenceTrader": "Заглушить странствующего торговца",
+  "text.autoconfig.bwncr.option.general.silenceUs": "Отключить выбранные звуки",
+  "text.autoconfig.bwncr.option.general.silenceWither": "Заглушить визера",
+  "text.autoconfig.bwncr.title": "Bad Wither No Cookie — Reloaded"
+}

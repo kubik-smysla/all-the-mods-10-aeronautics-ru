@@ -1,0 +1,40 @@
+{
+  "name": "Элемент «Атаковать существо»",
+  "icon": "pneumaticcraft:textures/progwidgets/attack_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ атакует любое живое существо в выбранной области.$(p)Подключённые элементы $(l:programming/area)«Область»/$ должны иметь форму $(thing)параллелепипеда/$ — другие формы напрямую не поддерживаются. Более сложную зону можно собрать из нескольких областей в белом списке справа и чёрном списке слева."
+    },
+    {
+      "type": "text",
+      "title": "Фильтрация существ",
+      "text": "Укажите допустимые цели с помощью элемента $(l:programming/text)«Текст»/$, работающего как $(l:base_concepts/entity_filter)фильтр существ/$. Например, чтобы $(thing)дрон/$ атаковал всех игроков, подключите к элементу $(thing)«Атаковать существо»/$ $(thing)«Текст»/$ со значением $(#600)@player/$ с $(italic)правой/$ стороны.$(p)Чтобы исключить себя, добавьте ещё один элемент $(thing)«Текст»/$ с вашим именем $(italic)слева/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:diamond_sword",
+      "title": "Ближний бой",
+      "text": "$(l:tools/drone)Дрон/$ берёт из своего инвентаря оружие ближнего боя. Если вариантов несколько, $(thing)дрон/$ выбирает оружие с наибольшим уроном.$(p)Лучше заранее выдать ему оружие через элемент $(l:programming/inventory_import)«Импорт из инвентаря»/$: безоружная атака очень слаба."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "Установите в $(l:tools/drone)дрона/$ $(l:base_concepts/upgrades#minigun)улучшение минигана/$, чтобы вооружить его $(l:tools/minigun)миниганом/$. Если через элемент $(l:programming/inventory_import)«Импорт из инвентаря»/$ загрузить $(l:tools/minigun_ammo)боеприпасы/$, $(thing)дрон/$ начнёт атаковать издалека.$(p)Базовая дальность равна 16 блокам. До 16 $(l:base_concepts/upgrades#range_upgrade)улучшений радиуса/$ повышают её максимум до 32 блоков."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:micromissiles",
+      "text": "Дроны умеют запускать и $(l:tools/micromissiles)микроракеты/$. Если при выполнении элемента $(thing)дрон/$ держит $(item)микроракету/$, он выпустит её в текущую цель. Подключённый $(l:base_concepts/entity_filter)фильтр существ/$ автоматически копируется во внутренний фильтр ракеты."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/attack_piece.png"
+      ],
+      "text": "$(italic)Я ещё вернусь/$"
+    }
+  ]
+}

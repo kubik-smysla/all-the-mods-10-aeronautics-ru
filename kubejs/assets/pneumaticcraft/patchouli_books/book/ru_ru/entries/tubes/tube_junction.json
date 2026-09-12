@@ -1,0 +1,17 @@
+{
+  "name": "Трубная развязка",
+  "icon": "pneumaticcraft:tube_junction",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Трубная развязка/$ позволяет двум $(l:tubes/pressure_tubes)напорным трубам/$ любых $(l:base_concepts/pressure_tiers)уровней/$ пересечься, не соединяясь друг с другом."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание трубной развязки",
+      "recipe": "pneumaticcraft:tube_junction"
+    }
+  ]
+}

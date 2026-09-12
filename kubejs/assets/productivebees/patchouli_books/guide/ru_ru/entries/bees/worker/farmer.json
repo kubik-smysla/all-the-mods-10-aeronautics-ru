@@ -1,0 +1,18 @@
+{
+  "name": "Пчела-фермер",
+  "icon": "minecraft:wheat",
+  "read_by_default": true,
+  "sortnum": 1,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Пчела-фермер",
+      "text": "Собирает урожай поблизости и оставляет его на земле. Работает в радиусе 4 блоков от своего улья; радиус можно увеличить улучшениями. Если установлен мод со сбором урожая по ПКМ, пчела будет использовать именно эту механику."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:farmer_bee"
+    }
+  ]
+}

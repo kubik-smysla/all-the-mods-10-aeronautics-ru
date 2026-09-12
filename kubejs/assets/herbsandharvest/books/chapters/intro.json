@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Mama's Herbs & Harvest — фермерский мод, на продуктах которого также основаны рецепты других модов Mama's Minis, включая MerryMaking и Happy Hallows. Он добавляет 32 выращиваемые культуры, виноград, восемь плодовых деревьев и 14 трав.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/intro/crops.png",
+          "caption": "herbsandharvest.guide_book.chapters.intro.intro_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "Обновление «Кладовая» с новыми блоками, предметами и блюдами вышло в начале февраля 2026 года.",
+          "text": null
+        }
+      ]
+    }
+  ]
+}

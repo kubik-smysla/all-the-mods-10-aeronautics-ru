@@ -1,0 +1,24 @@
+{
+  "name": "Элемент «Для каждого предмета»",
+  "icon": "pneumaticcraft:textures/progwidgets/for_each_item.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот расширенный элемент запускает подпрограмму для каждого подключённого $(l:programming/item_filter)фильтра предметов/$. Он записывает очередной фильтр в указанную переменную и переходит к $(l:programming/label)«Метке»/$, имя которой совпадает с подключённым элементом $(l:programming/text)«Текст»/$. Когда подпрограмма доходит до места обычного возврата к $(l:programming/start)«Началу»/$, выполнение возвращается сюда и повторяется для следующего $(thing)фильтра предметов/$."
+    },
+    {
+      "type": "text",
+      "title": "Выход из цикла",
+      "text": "Чтобы выйти из цикла, запишите пустой фильтр в предметную переменную элемента $(thing)«Для каждого предмета»/$ с помощью элемента $(l:programming/item_assign)«Присвоить предмет»/$. При следующем возврате $(thing)«Для каждого предмета»/$ заметит пустое значение и прекратит перебор."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/for_each_item.png"
+      ],
+      "text": "$(italic)Элемент «Для каждого предмета»/$"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "getittogetherdrops.configuration.checkY": "Учитывать высоту",
+  "getittogetherdrops.configuration.checkY.tooltip": "Если включено, выпавшие предметы будут искать подходящие стопки не только вокруг, но и выше и ниже себя. Значение «false» соответствует обычному поведению игры.",
+  "getittogetherdrops.configuration.radius": "Радиус",
+  "getittogetherdrops.configuration.radius.tooltip": "Радиус в блоках, в котором выпавшие предметы ищут другие стопки для объединения. Значение «0.5» соответствует обычному поведению игры."
+}

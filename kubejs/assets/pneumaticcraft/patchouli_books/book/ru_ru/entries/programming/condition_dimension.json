@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Условие: измерение»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_dimension_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это элемент $(l:programming/conditions)«Условие»/$.$(p)$(thing)«Условие: измерение»/$ проверяет, где сейчас находится дрон. Этот элемент $(o)обязательно/$ должен присутствовать в программе, чтобы дрон мог переходить между измерениями, например через портал в Нижний мир."
+    },
+    {
+      "type": "text",
+      "text": "Идентификатор измерения задаётся элементом $(l:programming/text)«Текст»/$, например $(thing)minecraft:overworld/$ или $(thing)minecraft:the_nether/$. Элементы справа образуют белый список, слева — чёрный."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_dimension_piece.png"
+      ],
+      "text": "$(italic)Совершенно новый мир/$"
+    }
+  ]
+}

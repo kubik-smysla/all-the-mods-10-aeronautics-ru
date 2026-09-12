@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Ожидание»",
+  "icon": "pneumaticcraft:textures/progwidgets/standby_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Дойдя до этого элемента, $(l:tools/drone)дрон/$ выключает винты и падает с неба. Так можно экономить $(l:base_concepts/pressure)воздух/$: в режиме ожидания он не расходуется.$(p)При этом $(thing)дрон/$ продолжает выполнять программу. Как только следующий элемент потребует настоящего действия, $(thing)дрон/$ снова запустит винты."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/standby_piece.png"
+      ],
+      "text": "$(italic)Спящая красавица/$"
+    }
+  ]
+}

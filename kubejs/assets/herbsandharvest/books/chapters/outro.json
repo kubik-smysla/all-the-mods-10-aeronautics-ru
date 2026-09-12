@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Теперь вы готовы заняться хозяйством и наполнить дом вкусными интерактивными блюдами.\n\nЕсли появятся вопросы или понадобится помощь, присоединяйтесь к серверу Discord:\n\nhttps://discord.gg/2QWyQ8fkUr",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mama.png",
+          "caption": "herbsandharvest.guide_book.chapters.mama_caption",
+          "image_width": 30,
+          "image_height": 30
+        },
+        {
+          "type": "text",
+          "literal_text": "Надеюсь, это дополнение к моей коллекции модов вам понравится.\n\nС любовью,\n~ Мама Мишель",
+          "text": null
+        }
+      ]
+    }
+  ]
+}

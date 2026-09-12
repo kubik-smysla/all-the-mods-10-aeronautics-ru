@@ -1,0 +1,24 @@
+{
+  "name": "Элемент «Изменить табличку»",
+  "icon": "pneumaticcraft:textures/progwidgets/edit_sign_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Элемент записывает заданный текст на все $(item)таблички/$ и $(l:machines/aphorism_tile)плитки афоризма/$ в подключённой $(l:programming/area)области/$. Текст берётся из присоединённых элементов $(l:programming/text)«Текст»/$.$(p)Каждый элемент $(thing)«Текст»/$ соответствует одной строке; несколько элементов $(thing)«Текст»/$ создают многострочную надпись."
+    },
+    {
+      "type": "text",
+      "title": "Переменные",
+      "text": "В текст можно вставить значение $(l:programming/variables)переменной/$ записью $(thing)${<var_name>}/$. Например,$(p)  $(formula)Counter: ${counter}/$$(p)превратится в $(thing)Counter: 1, 2, 3/$, если переменная $(thing)counter/$ содержит $(thing)x=1,y=2,z=3/$. Здесь также поддерживаются $(l:programming/variables#special)особые/$ и $(l:programming/variables#global)глобальные переменные/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/edit_sign_piece.png"
+      ],
+      "text": "$(italic)Элемент «Изменить табличку»/$"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Присвоить предмет»",
+  "icon": "pneumaticcraft:textures/progwidgets/item_assign_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Расширенный элемент $(thing)«Присвоить предмет»/$ сохраняет предмет в $(l:programming/variables)переменной/$. Переменные бывают координатными и предметными; здесь используется второй вид.$(p)Общие сведения о переменных и координатный вариант описаны в разделе $(l:programming/coordinate_operator)«Оператор координат»/$."
+    },
+    {
+      "type": "text",
+      "text": "Чтобы сохранить предмет в $(thing)переменной/$, подключите $(italic)справа/$ от элемента $(thing)«Присвоить предмет»/$ $(l:programming/item_filter)фильтр предметов/$ с нужным предметом. Имя переменной задаётся нажатием $(thing)ПКМ/$ по элементу $(thing)«Присвоить предмет»/$. Переносится только сам предмет, но не настройки фильтра.$(p)Если элемент $(thing)«Фильтр предметов»/$ отсутствует, в переменную попадёт предмет из руки дрона."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_assign_piece.png"
+      ],
+      "text": "$(italic)Элемент «Присвоить предмет»/$"
+    }
+  ]
+}

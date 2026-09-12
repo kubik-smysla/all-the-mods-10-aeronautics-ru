@@ -1,0 +1,18 @@
+{
+  "name": "Пчела-животновод",
+  "icon": "minecraft:milk_bucket",
+  "read_by_default": true,
+  "sortnum": 2,
+  "category": "productivebees:bees_worker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Пчела-животновод",
+      "text": "Доит коров, овец и лам поблизости, производя в улье молочные соты. Заодно стрижёт овец.$(br2)При создании этой пчелы пострадало немало коров."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:rancher_bee"
+    }
+  ]
+}

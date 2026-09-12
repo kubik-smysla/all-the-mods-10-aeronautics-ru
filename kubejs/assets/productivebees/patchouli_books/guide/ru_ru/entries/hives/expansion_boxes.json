@@ -1,0 +1,71 @@
+{
+  "name": "Пристройки улья",
+  "icon": "productivebees:expansion_box_oak",
+  "category": "productivebees:hives",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пристройка увеличивает вместимость продвинутого улья с 3 до 5 пчёл. Её можно разместить сверху или сбоку от улья. К одному улью присоединяется только одна пристройка."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivebees:expansion_boxes/expansion_box_oak"
+    },
+    {
+      "type": "multiblock",
+      "name": "Пристройка сверху",
+      "multiblock": {
+        "mapping": {
+          "H": "productivebees:advanced_oak_beehive[expanded=up]",
+          "E": "productivebees:expansion_box_oak[expanded=up]"
+        },
+        "pattern": [
+          [
+            "E"
+          ],
+          [
+            "H"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "symmetrical": true,
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "enable_visualize": false
+    },
+    {
+      "type": "multiblock",
+      "name": "Пристройка сбоку",
+      "multiblock": {
+        "mapping": {
+          "H": "productivebees:advanced_oak_beehive[expanded=left]",
+          "E": "productivebees:expansion_box_oak[expanded=left]"
+        },
+        "pattern": [
+          [
+            "H",
+            "E"
+          ],
+          [
+            "0",
+            " "
+          ]
+        ],
+        "symmetrical": true,
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "enable_visualize": false
+    }
+  ]
+}

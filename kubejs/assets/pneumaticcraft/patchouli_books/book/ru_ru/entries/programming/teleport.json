@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Телепортация»",
+  "icon": "pneumaticcraft:textures/progwidgets/teleport_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)«Телепортация»/$ — более дорогая по расходу $(l:base_concepts/pressure)воздуха/$ версия элемента $(l:programming/goto)«Перейти»/$. $(l:tools/drone)Дрон/$ мгновенно перемещается в ближайшую доступную точку указанной $(l:programming/area)области/$.$(p)Один прыжок расходует 10 000 мл воздуха — почти весь запас обычного $(item)дрона/$ без улучшений. Поэтому установите $(l:base_concepts/upgrades#volume)улучшения объёма/$ в $(item)дрона/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/teleport_piece.png"
+      ],
+      "text": "$(italic)Только что был здесь — а теперь уже там/$"
+    }
+  ]
+}

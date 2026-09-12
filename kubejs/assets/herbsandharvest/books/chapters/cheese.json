@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Справочник поселенца по сыроварению",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.cheese.wheels",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.wheelsc",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.supp",
+          "target_page": 3
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.mix",
+          "target_page": 4
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.milk",
+          "target_page": 5
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.rennet",
+          "target_page": 6
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.curds",
+          "target_page": 7
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.salt",
+          "target_page": 8
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.raw",
+          "target_page": 9
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.age",
+          "target_page": 10
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.place",
+          "target_page": 11
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.auto",
+          "target_page": 12
+        }
+      ],
+      "elements": []
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.wheels",
+      "summary": "Сыры делятся на мягкие и твёрдые. Головка мягкого сыра готова к употреблению сразу.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:caravane",
+              "text": "guide.herbsandharvest.caravane_desc"
+            },
+            {
+              "item": "herbsandharvest:chevre",
+              "text": "guide.herbsandharvest.chevre_desc"
+            },
+            {
+              "item": "herbsandharvest:feta",
+              "text": "guide.herbsandharvest.feta_desc"
+            },
+            {
+              "item": "herbsandharvest:ricotta",
+              "text": "guide.herbsandharvest.ricotta_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.wheelsc",
+      "summary": "Молодую головку твёрдого сыра перед употреблением нужно выдержать на сырной полке.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:aged_cheddar",
+              "text": "guide.herbsandharvest.aged_cheddar_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_gouda",
+              "text": "guide.herbsandharvest.aged_gouda_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_parmesan",
+              "text": "guide.herbsandharvest.aged_parmesan_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_swiss",
+              "text": "guide.herbsandharvest.aged_swiss_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.supp",
+      "summary": "Для сыроварения понадобятся:\n— вёдра с молоком разных видов;\n— котёл с источником тепла под ним;\n— сычужный фермент;\n— соль;\n— полка для выдержки сыра.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "Подготовив всё необходимое, выберите сыр, который хотите приготовить.\n\nВсего доступно восемь видов сыра, и для каждого требуется своё сочетание молока.\n\nНиже перечислены все рецепты.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.mix",
+      "summary": "Твёрдые сыры:\n\n— чеддер: коровье молоко;\n— гауда: овечье молоко;\n— пармезан: коровье и козье молоко;\n— швейцарский сыр: овечье и козье молоко.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "Мягкие сыры:\n\n— «Караван»: верблюжье молоко;\n— шевр: козье молоко;\n— фета: верблюжье и козье молоко;\n— рикотта: верблюжье и овечье молоко.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.milk",
+      "summary": "Когда рецепт выбран и всё необходимое собрано, можно приступать к приготовлению сыра.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/add_milk.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.add_milk_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "Убедитесь, что котёл нагревается снизу, и вылейте в него молоко. Если рецепт требует два вида молока, сначала добавьте один, а затем сразу второй.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.rennet",
+      "summary": "Сразу же добавьте сычужный фермент. Не медлите: если сделать это слишком поздно, молоко превратится в сливки.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/add_rennet.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.add_rennet_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "После добавления сычужного фермента смесь в котле сразу изменится.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.curds",
+      "summary": "Смесь придёт в движение, а спустя некоторое время разделится на сырный сгусток и сыворотку.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/curds.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.curds_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "В котле появится жёлтая жидкость с белыми частицами, поднимающимися к поверхности, как на изображении. Также будут видны пузырьки.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.salt",
+      "summary": "Когда котёл наполнится сырным сгустком и сывороткой, добавьте в него соль.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "Соль соединится с сывороткой, и сыр затвердеет, превратившись в головку.\n\nПосле получения головки котёл должен опустеть.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.raw",
+      "summary": "Дальнейшие действия зависят от приготовленного сыра.\n\nМягкий сыр уже готов — больше ничего делать не нужно.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/wheel.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.wheel_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "Поставьте головку и нажмите по ней, чтобы отрезать кусок сыра.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.age",
+      "summary": "Если вы готовили твёрдый сыр, полученная головка будет молодой и потребует выдержки.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/shelf.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.shelf_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "Поместите молодую головку на сырную полку. По её внешнему виду будет заметно, когда сыр созреет.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.place",
+      "summary": "Готовую головку сыра можно поставить как блок.\n\nНажимайте по ней, чтобы отрезать съедобные куски: их можно есть или использовать в рецептах.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/wheel1.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.wheel1_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "Из каждой головки получается четыре куска сыра.\n\nВажно: поставленную головку сыра уже нельзя забрать.",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.auto",
+      "summary": "Добавление сычужного фермента и соли в котёл можно автоматизировать раздатчиком.\n\nОбратите внимание: автоматически заливать смесь молока нельзя.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "Если молоко превратилось в сливки, их извлечение ведром тоже можно автоматизировать.",
+          "text": null
+        }
+      ]
+    }
+  ]
+}

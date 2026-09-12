@@ -1,0 +1,30 @@
+{
+  "name": "Модуль манометра",
+  "icon": "pneumaticcraft:pressure_gauge_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот трубный модуль показывает $(l:base_concepts/pressure)давление/$ в трубе и выдаёт направленный $(#f00)сигнал красного камня/$ силой:$(p)$(formula)  сигнал = 2 × давление/$.$(p)Например, при 3,5 бара уровень сигнала равен 7."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "$(l:tubes/module_expansion_card)Карта расширения/$ открывает по правому щелчку расширенный интерфейс управления $(#f00)сигналом красного камня/$. В обычном режиме задаётся порог: ниже него сигнал отключён, а выше включён на полную силу, либо наоборот. Режим $(bold)«Расширенная настройка»/$ позволяет задать более гибкую зависимость, описанную далее."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pressure_gauge_gui.png"
+      ],
+      "text": "$(italic)<10 бар — сигнал 0; >20 бар — сигнал 15; между 10 и 20 барами — плавное изменение, например 12 бар дают сигнал 3/$",
+      "anchor": "img"
+    },
+    {
+      "type": "crafting",
+      "text": "Создание модуля манометра",
+      "recipe": "pneumaticcraft:pressure_gauge_module"
+    }
+  ]
+}

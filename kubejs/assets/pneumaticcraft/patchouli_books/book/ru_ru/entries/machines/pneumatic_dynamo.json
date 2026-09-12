@@ -1,0 +1,22 @@
+{
+  "name": "Пневматическая динамо-машина",
+  "icon": "pneumaticcraft:pneumatic_dynamo",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Пневматическая динамо-машина/$ превращает $(l:base_concepts/pressure)сжатый воздух/$ в $(thing)Forge Energy/$, совместимую с $(thing)Redstone Flux/$ и энергосетями других модов. По умолчанию она выдаёт 40 FE/такт, а $(l:base_concepts/upgrades#speed)улучшения скорости/$ повышают мощность. Пропускная способность $(item)потокового компрессора/$ вдвое выше текущей выработки: изначально 80 FE/такт и также увеличивается улучшениями скорости."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:pneumatic_dynamo",
+      "text": "Эффективность динамо-машины зависит от $(l:base_concepts/heat)температуры/$. Её необходимо $(thing)охлаждать/$: по мере нагрева КПД падает и в конце концов выработка энергии прекращается."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание пневматической динамо-машины",
+      "recipe": "pneumaticcraft:pneumatic_dynamo"
+    }
+  ]
+}

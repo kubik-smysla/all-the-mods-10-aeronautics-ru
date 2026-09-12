@@ -1,0 +1,17 @@
+{
+  "name": "Бурильная труба",
+  "icon": "pneumaticcraft:drill_pipe",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Бурильные трубы/$ нужны $(l:machines/gas_lift)газлифту/$, чтобы пробуриться вниз до жидкости.$(p)При желании их можно использовать и как строительные блоки."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание бурильной трубы",
+      "recipe": "pneumaticcraft:drill_pipe"
+    }
+  ]
+}

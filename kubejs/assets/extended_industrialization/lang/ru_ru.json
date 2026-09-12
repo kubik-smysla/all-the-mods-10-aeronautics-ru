@@ -1,0 +1,10 @@
+{
+  "block.extended_industrialization.electric_beacon": "Электрический маяк",
+  "itemGroup.extended_industrialization.extended_industrialization": "Extended Industrialization",
+  "key.categories.extended_industrialization.extended_industrialization": "Extended Industrialization",
+  "text.extended_industrialization.electric_beacon_beam_obstructed": "Луч перекрыт",
+  "text.extended_industrialization.electric_beacon_eu_cost_tooltip": "Потребление: %s",
+  "text.extended_industrialization.electric_beacon_help": "Расходует зелья и за %s на каждый эффект наделяет ими всех игроков поблизости на половину исходной длительности.",
+  "text.extended_industrialization.electric_beacon_remaining_time_tooltip": "Оставшееся время эффекта: %s",
+  "text.extended_industrialization.key_alt": "Alt"
+}

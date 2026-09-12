@@ -1,0 +1,17 @@
+{
+  "block.railcraft.void_chest": "Сундук пустоты",
+  "entity.railcraft.cargo_minecart": "Грузовая вагонетка",
+  "entity.railcraft.void_chest_minecart": "Вагонетка с сундуком пустоты",
+  "fml.menu.mods.info.displayname.railcraft": "Railcraft Reborn",
+  "item.railcraft.cargo_minecart": "Грузовая вагонетка",
+  "item.railcraft.void_chest_minecart": "Вагонетка с сундуком пустоты",
+  "item.railcraft.void_dust": "Пыль пустоты",
+  "itemGroup.railcraft": "Railcraft Reborn",
+  "key.railcraft.category": "Railcraft Reborn",
+  "looking_at.railcraft.aspect_received": "Получено аспектов: ",
+  "looking_at.railcraft.aspect_relayed": "Передано через ретранслятор аспектов: ",
+  "looking_at.railcraft.aspect_sent": "Отправлено аспектов: ",
+  "railcraft.configuration.boreMinesAllBlocks": "Проходческий щит добывает любые блоки",
+  "railcraft.configuration.maxLauncherTrackForce": "Максимальная сила пускового пути",
+  "railcraft.configuration.strapIronTrackMaxSpeed": "Максимальная скорость деревянного пути"
+}

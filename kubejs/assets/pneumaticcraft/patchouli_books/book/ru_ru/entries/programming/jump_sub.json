@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Вызов подпрограммы»",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_sub_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот элемент работает как $(thing)«Переход»/$, но после завершения подпрограммы выполнение продолжается с элемента под $(thing)«Вызовом подпрограммы»/$. Элемент $(thing)«Вызов подпрограммы»/$ помогает повторно использовать общий код и передавать произвольные аргументы через переменные, заданные перед переходом."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_sub_piece.png"
+      ],
+      "text": "$(italic)Элемент «Вызов подпрограммы»/$"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "gui.itemcollectors.advanced_collector.show_area.off": "Область скрыта",
+  "gui.itemcollectors.advanced_collector.show_area.on": "Область показана",
+  "itemcollectors.advanced_collector.info": "Собирает предметы вокруг себя; поддерживает фильтрацию",
+  "itemcollectors.basic_collector.info": "Собирает предметы вокруг себя",
+  "itemcollectors.basic_collector.info.range": "Радиус: %s блоков",
+  "itemcollectors.block.advanced_collector": "Улучшенный сборщик предметов",
+  "itemcollectors.block.basic_collector": "Обычный сборщик предметов"
+}

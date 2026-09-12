@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Нажать ПКМ по существу»",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ один раз применяет предмет из первой ячейки инвентаря нажатием $(thing)ПКМ/$ к каждому существу в указанной $(l:programming/area)области/$. Так можно стричь овец, доить коров, разводить животных и многое другое.$(p)Подключённые элементы $(l:programming/area)«Область»/$ должны иметь форму $(thing)параллелепипеда/$. Более сложную зону можно собрать сочетанием белых и чёрных списков областей."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png"
+      ],
+      "text": "$(italic)Тык/$"
+    }
+  ]
+}

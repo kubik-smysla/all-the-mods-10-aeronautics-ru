@@ -1,0 +1,38 @@
+{
+  "name": "Основные материалы",
+  "icon": "pneumaticcraft:ingot_iron_compressed",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr) не добавляет в мир новых руд. Для начала нужны только $(item)железные слитки/$, которые предстоит превратить в $(item)слитки сжатого железа$(). Они используются во множестве рецептов мода.$(p)Бросьте $(item)железные слитки/$ на землю и устройте рядом взрыв. Подойдёт $(item)динамит/$ или любой другой источник взрыва."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/compressed_iron.png"
+      ],
+      "text": "$(italic)      Лучше отойдите/$"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "compressed_iron_ingot",
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "text": "Внимание: при взрыве теряется около 20% слитков. Позже $(item)слитки сжатого железа/$ можно будет получать без потерь в $(l:manufacturing/pressure_chamber)камере давления/$. Однако для создания самой $(thing)камеры давления/$ уже нужны $(item)слитки сжатого железа/$, поэтому первых потерь не избежать."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_ingot"
+    },
+    {
+      "type": "crafting",
+      "anchor": "compressed_iron_block",
+      "recipe": "pneumaticcraft:compressed_iron_block_from_ingot",
+      "text": "$(item)Блок сжатого железа/$ отлично $(l:base_concepts/heat)проводит тепло/$ и даёт дополнительные грани для установки $(l:machines/heat_sink)радиаторов/$ возле нагревающихся механизмов. Впрочем, для этой задачи существуют и $(l:machines/heat_pipe)тепловые трубы/$."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_block"
+    }
+  ]
+}

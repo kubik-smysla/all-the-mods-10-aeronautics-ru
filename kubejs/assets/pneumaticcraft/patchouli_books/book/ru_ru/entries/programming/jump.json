@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Переход»",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот элемент управляет только $(l:programming/flow_control)ходом программы/$. Дойдя до $(thing)«Перехода»/$, программа читает подключённый элемент $(l:programming/text)«Текст»/$ и ищет $(l:programming/label)«Метку»/$ с таким же именем. Если перейти не удалось, выполнение возвращается к $(l:programming/start)«Началу»/$. В правильно собранной программе такого происходить не должно."
+    },
+    {
+      "type": "text",
+      "text": "Элемент $(thing)«Переход»/$ позволяет свести несколько $(italic)ветвей/$ программы в одну точку, направив два или больше перехода к общей $(l:programming/label)«Метке»/$. С его помощью также удобно разносить части программы по отдельным подпрограммам. Включите флажок $(bold)«Показать ход»/$ в левом нижнем углу $(l:programming/programmer)программатора/$ — линии свяжут одноимённые элементы $(thing)«Переход/Условие/Метка»/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_piece.png"
+      ],
+      "text": "$(italic)Почему бы и нет/$"
+    }
+  ]
+}

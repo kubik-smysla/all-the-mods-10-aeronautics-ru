@@ -1,0 +1,21 @@
+{
+  "name": "Усиленный воздушный баллон",
+  "icon": "pneumaticcraft:reinforced_air_canister",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Как и обычный $(l:components/air_canister)воздушный баллон/$, $(thing)усиленный воздушный баллон/$ хранит воздух и может заправляться или опустошаться в $(l:machines/charging_station)зарядной станции/$. Однако его объём увеличен до 6000 мл, а допустимое давление — до 20 бар; баллон при этом не взорвётся."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)Усиленный воздушный баллон/$ можно превратить в ёмкий накопитель воздуха. Для этого подойдут сундук и $(l:tubes/pressure_tubes)напорная труба/$ с $(l:tubes/charging_module)зарядным модулем/$. А сочетание с $(l:machines/aerial_interface)воздушным интерфейсом/$ и обычным $(thing)эндер-сундуком/$ открывает ещё более интересные возможности…"
+    },
+    {
+      "type": "crafting",
+      "text": "Создание усиленного воздушного баллона",
+      "recipe": "pneumaticcraft:reinforced_air_canister"
+    }
+  ]
+}

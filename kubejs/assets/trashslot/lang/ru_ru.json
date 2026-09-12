@@ -1,0 +1,7 @@
+{
+  "key.categories.trashslot": "Мусорный слот",
+  "key.trashslot.delete_all": "Удалить все предметы этого типа",
+  "key.trashslot.toggle_lock": "Заблокировать или разблокировать мусорный слот",
+  "tooltip.trashslot.destroy_item": "Уничтожить предмет",
+  "tooltip.trashslot.trash_item": "Выбросить предмет"
+}

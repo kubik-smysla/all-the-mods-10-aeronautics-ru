@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Внешняя программа»",
+  "icon": "pneumaticcraft:textures/progwidgets/external_program_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Элемент ищет хранилища в указанной $(l:programming/area)области/$ и по очереди проверяет все ячейки. Обнаружив $(l:tools/drone)дрона/$ или $(l:components/network_components#network_api)сетевой API/$, он запускает записанную в предмете программу.$(p)После её завершения $(item)дрон/$ переходит к следующей ячейке или хранилищу."
+    },
+    {
+      "type": "text",
+      "text": "Элемент удобен для отладки программ $(item)дронов/$, поскольку $(l:programming/programmer)программатор/$ тоже считается хранилищем. Запишите в $(item)дрона/$ элемент $(thing)«Внешняя программа»/$ с областью, содержащей только $(item)программатор/$, и выпустите его.$(p)Теперь поместите $(item)дрона/$ или $(item)сетевой API/$ в программатор и создайте программу. После нажатия кнопки $(thing)⟶ (экспорт)/$ в $(item)программаторе/$ уже выпущенный $(item)дрон/$ сразу выполнит новый вариант."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/external_program_piece.png"
+      ],
+      "text": "$(italic)Программа внутри программы/$"
+    }
+  ]
+}

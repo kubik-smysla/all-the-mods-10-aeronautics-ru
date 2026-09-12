@@ -1,0 +1,14 @@
+{
+  "energy_bar.polylib.capacity": "Ёмкость:",
+  "energy_bar.polylib.energy_storage": "Хранилище энергии",
+  "energy_bar.polylib.stored": "Запас:",
+  "fluid_tank.polylib.capacity": "Ёмкость:",
+  "fluid_tank.polylib.contains": "Содержит:",
+  "fluid_tank.polylib.fluid_storage": "Хранилище жидкости",
+  "fluid_tank.polylib.mb": "мБ",
+  "fluid_tank.polylib.stored": "Запас:",
+  "rs_mode.polylib.active_high": "Работает при наличии сигнала красного камня",
+  "rs_mode.polylib.active_low": "Работает без сигнала красного камня",
+  "rs_mode.polylib.always_active": "Работает всегда",
+  "rs_mode.polylib.never_active": "Всегда отключено"
+}

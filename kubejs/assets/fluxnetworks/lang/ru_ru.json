@@ -1,0 +1,17 @@
+{
+  "gui.fluxnetworks.button.batchselect": "Выбрать предметы",
+  "gui.fluxnetworks.config_copied": "Конфигурация скопирована",
+  "gui.fluxnetworks.config_pasted": "Конфигурация вставлена",
+  "gui.fluxnetworks.jei.creatingfluxrecipe": "Создание флакса",
+  "gui.fluxnetworks.jei.leftclickhelp": "Нажмите ЛКМ по %s",
+  "gui.fluxnetworks.label.clickabove": "Нажмите %s выше",
+  "gui.fluxnetworks.label.detailedview": "Подробный обзор сети",
+  "gui.fluxnetworks.label.editingconnections": "Изменение подключений: %d",
+  "gui.fluxnetworks.label.playersnetwork": "Сеть игрока %s",
+  "gui.fluxnetworks.security.private": "Личная",
+  "gui.fluxnetworks.slot.curios": "Слоты Curios",
+  "gui.fluxnetworks.slot.mainhand": "Основная рука",
+  "gui.fluxnetworks.slot.offhand": "Вторая рука",
+  "itemGroup.fluxnetworks": "Flux Networks",
+  "tooltip.fluxnetworks.flux_storage_2": "Вместимость энергии: %s"
+}

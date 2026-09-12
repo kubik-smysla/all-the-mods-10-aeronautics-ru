@@ -1,0 +1,7 @@
+{
+  "crafting_on_a_stick.key.open_curios": "Открыть переносной верстак",
+  "curios.identifier.crafting_on_a_stick": "Рабочая станция на палочке",
+  "gui.crafting_on_a_stick.prefix": "",
+  "gui.crafting_on_a_stick.selection_wheel.no_tool": "У вас нет подходящего инструмента",
+  "gui.crafting_on_a_stick.suffix": " на палке"
+}

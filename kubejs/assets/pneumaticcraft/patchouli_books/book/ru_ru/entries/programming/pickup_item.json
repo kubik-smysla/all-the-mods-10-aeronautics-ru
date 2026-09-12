@@ -1,0 +1,23 @@
+{
+  "name": "Элемент «Подобрать предметы»",
+  "icon": "pneumaticcraft:textures/progwidgets/item_pick_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ подбирает лежащие в мире предметы и складывает в свой инвентарь. Подключённые элементы $(l:programming/area)«Область»/$ должны иметь форму $(thing)параллелепипеда/$ — это единственный поддерживаемый тип. Более сложную зону можно собрать из нескольких областей в белом и чёрном списках."
+    },
+    {
+      "type": "text",
+      "text": "Подключите $(l:programming/item_filter)фильтр предметов/$, чтобы ограничить сбор; чёрный список располагается $(thing)слева/$.$(p)Элемент завершается, когда в инвентарь дрона больше не помещается ни один подходящий предмет либо подбирать уже нечего."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_pick_piece.png"
+      ],
+      "text": "$(italic)Моё. Моё. Моё./$"
+    }
+  ]
+}

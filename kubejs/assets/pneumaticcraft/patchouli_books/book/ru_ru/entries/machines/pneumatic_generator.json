@@ -1,0 +1,27 @@
+{
+  "name": "Пневматический генератор",
+  "icon": "pneumaticcraft:pneumatic_generator",
+  "category": "pneumaticcraft:machines",
+  "flag": "pneumaticcraft:pneumaticGeneratorEnabled",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пневматический генератор превращает $(l:base_concepts/pressure)сжатый воздух/$ в $(thing)EU из IndustrialCraft 2/$. Это механизм второго уровня с минимальным рабочим давлением 15 бар. Начальный КПД равен 40 %, но его можно $(ttcolor)$(t:Параметр I:pneumaticGeneratorEfficiency)изменить в настройках/$.$(p)Без $(l:base_concepts/upgrades#speed)улучшений скорости/$ генератор выдаёт 32 EU/такт, с одним — 128, с двумя — 512."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:pneumatic_generator",
+      "text": "Расход воздуха в мл/такт рассчитывается так:$(p)$(formula)  мощность / E × 400/$,$(p)где $(formula)E/$ — КПД в процентах. Например, при КПД 40 % и мощности 32 EU/такт расход равен $(formula)32 / 40 × 400 = 320 мл/такт/$."
+    },
+    {
+      "type": "text",
+      "text": "Эффективность генератора зависит от $(l:base_concepts/heat)температуры/$. Его необходимо $(thing)охлаждать/$: по мере нагрева КПД падает и в конце концов выработка энергии прекращается."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание пневматического генератора",
+      "recipe": "pneumaticcraft:pneumatic_generator"
+    }
+  ]
+}

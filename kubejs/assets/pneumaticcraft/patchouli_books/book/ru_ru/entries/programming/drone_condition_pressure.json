@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Условие дрона: давление»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_pressure_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это элемент $(l:programming/conditions)«Условие»/$.$(p)$(thing)«Условие дрона: давление»/$ проверяет $(l:base_concepts/pressure)давление/$ в этом $(l:tools/drone)дроне/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_pressure_piece.png"
+      ],
+      "text": "$(italic)Элемент «Условие дрона: давление»/$"
+    }
+  ]
+}

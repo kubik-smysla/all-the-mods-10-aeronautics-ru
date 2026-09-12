@@ -1,0 +1,6 @@
+{
+  "book.mysticalagriculture.category.agradditions.name": "Agradditions",
+  "book.mysticalagriculture.entry.insanium.page.1": "Инсаниевая эссенция — дополнительный уровень выше супремия. Она используется для создания культур шестого уровня. $(br2)У культур шестого уровня есть особые свойства: $(br)$(li)Для роста им требуется $(l:mysticalagriculture:agradditions/cruxes)основание$() под пашней.$() $(li)При сборе они никогда не дают второе семя.$()",
+  "item.mysticalagradditions.insanium_essence": "Инсаниевая эссенция",
+  "itemGroup.mysticalagradditions": "Mystical Agradditions"
+}

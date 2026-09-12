@@ -1,0 +1,11 @@
+{
+  "block.sawmill.sawmill": "Лесопилка",
+  "container.sawmill.sawmill": "Лесопилка",
+  "entity.minecraft.villager.carpenter": "Плотник",
+  "entity.minecraft.villager.sawmill.carpenter": "Плотник",
+  "jei.sawmill.category.woodcutting": "Резка дерева",
+  "sawmill.category.wood_cutting": "Резка дерева",
+  "subtitles.sawmill.entity.villager.work_carpenter": "Плотник работает",
+  "subtitles.sawmill.ui.sawmill.take_result": "Лесопилка использована",
+  "tag.recipe_type.sawmill.whitelist": "Белый список"
+}

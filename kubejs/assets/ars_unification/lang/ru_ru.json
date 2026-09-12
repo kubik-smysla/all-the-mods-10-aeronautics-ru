@@ -1,0 +1,13 @@
+{
+  "ars_nouveau.augment_desc.glyph_cut_glyph_aoe": "Увеличивает радиус поиска предметов для обработки.",
+  "ars_nouveau.augment_desc.glyph_cut_glyph_pierce": "Увеличивает количество предметов, которые обработает «Срез».",
+  "ars_nouveau.augment_desc.glyph_cut_glyph_sensitive": "«Срез» также пытается обработать предметы поблизости.",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_aoe": "Увеличивает радиус поиска предметов для обработки.",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_pierce": "Увеличивает количество предметов, которые обработает «Придавить».",
+  "ars_nouveau.augment_desc.glyph_flatten_glyph_sensitive": "«Придавить» также пытается обработать предметы поблизости.",
+  "ars_unification.augment_with": "Дополните этот глиф усилением «%s», чтобы использовать данные рецепты.",
+  "ars_unification.cut_recipe": "Глиф «Срез»",
+  "ars_unification.press_recipe": "Глиф «Придавить»",
+  "emi.category.ars_unification.cut": "Глиф «Срез»",
+  "emi.category.ars_unification.press": "Глиф «Придавить»"
+}

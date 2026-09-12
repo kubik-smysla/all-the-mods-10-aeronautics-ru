@@ -1,0 +1,48 @@
+Полученный металл называется
+драконьей сталью. Это один
+из самых прочных и универсальных
+материалов, известных человеку.
+Из него делают инструменты,
+доспехи для людей и драконов.
+<item><iceandfire:dragonsteel_fire_sword 0 10 40 1>
+<item><iceandfire:dragonsteel_fire_pickaxe 0 26 40 1>
+<item><iceandfire:dragonsteel_fire_axe 0 42 40 1>
+<item><iceandfire:dragonsteel_fire_shovel 0 58 40 1>
+<item><iceandfire:dragonsteel_fire_hoe 0 74 40 1>
+<item><iceandfire:dragonsteel_fire_helmet 0 20 60 1>
+<item><iceandfire:dragonsteel_fire_chestplate 0 35 60 1>
+<item><iceandfire:dragonsteel_fire_leggings 0 50 60 1>
+<item><iceandfire:dragonsteel_fire_boots 0 65 60 1>
+
+
+
+
+
+
+
+
+
+Не забывайте: драконью кузню
+можно построить и для ледяного
+дракона. Лютый холод его дыхания
+создаёт ледяную драконью сталь.
+<item><iceandfire:dragonforge_ice_brick 0 70 4 1.5>
+<item><iceandfire:dragonforge_ice_input 0 90 4 1.5>
+<item><iceandfire:dragonforge_ice_core 0 110 4 1.5>
+
+
+
+
+
+
+
+Огненная драконья сталь поджигает
+врагов на срок до 15 секунд
+и сильно отбрасывает их. Ледяная
+драконья сталь заключает цель
+в огромную глыбу льда. Оба вида
+наносят колоссальный урон
+и позволяют справиться даже
+с крупным драконом. Доспехи
+из драконьей стали также лучше
+защищают от драконьего дыхания.

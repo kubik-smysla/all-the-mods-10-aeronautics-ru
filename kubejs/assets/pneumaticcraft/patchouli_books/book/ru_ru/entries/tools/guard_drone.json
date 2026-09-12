@@ -1,0 +1,45 @@
+{
+  "name": "Охранный дрон",
+  "icon": "pneumaticcraft:guard_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Охранный дрон/$ — специализированный непрограммируемый вариант $(l:tools/drone)дрона/$. Запустите его по хранилищу: он возьмёт оттуда один предмет как оружие и станет атаковать существ в своей зоне."
+    },
+    {
+      "type": "spotlight",
+      "title": "Автоматическая зарядка",
+      "item": "pneumaticcraft:charging_station",
+      "text": "Как и любому дрону, логистическому требуется $(l:base_concepts/pressure)давление/$. Когда воздух заканчивается, он сам ищет $(l:tools/drone#charging)зарядную станцию с улучшением раздатчика/$."
+    },
+    {
+      "type": "text",
+      "title": "Дальность",
+      "text": "$(thing)Охранный дрон/$ ищет враждебных существ в пределах 16 блоков по горизонтали, 8 вверх и 5 вниз от точки запуска.$(p)Небольшая нижняя граница не даёт ему обнаруживать врагов глубоко в пещерах, тратить воздух на путь к ним и неожиданно исчезать из виду."
+    },
+    {
+      "type": "spotlight",
+      "title": "Оружие",
+      "item": "minecraft:netherite_sword",
+      "text": "$(thing)Охранный дрон/$ возьмёт из хранилища любой предмет, поэтому оставьте там подходящее оружие ближнего боя. Когда оно сломается, а замены не окажется, дрон продолжит драться безоружным и станет почти бесполезен."
+    },
+    {
+      "type": "spotlight",
+      "title": "Дальний бой",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "Вместо оружия ближнего боя можно установить $(l:base_concepts/upgrades#minigun)улучшение минигана/$ и положить в хранилище $(l:tools/minigun_ammo)боеприпасы для минигана/$."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:guard_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "crafting",
+      "text": "Создание охранного дрона",
+      "recipe": "pneumaticcraft:guard_drone"
+    }
+  ]
+}

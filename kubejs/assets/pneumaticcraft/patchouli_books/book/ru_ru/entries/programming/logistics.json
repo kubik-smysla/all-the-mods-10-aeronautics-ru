@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Логистика»",
+  "icon": "pneumaticcraft:textures/progwidgets/logistics_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот элемент заставляет $(l:tools/drone)дрона/$ работать как $(l:logistics/logistics_drone)логистический дрон/$, но даёт больше свободы:$(li)его можно сочетать с другими элементами, например $(l:programming/standby)«Ожиданием»/$ для экономии воздуха;$(li)можно задать собственную $(l:programming/area)область/$, тогда как обычный логистический дрон всегда работает в неизменной зоне 33×33×33 с центром на себе."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/logistics_piece.png"
+      ],
+      "text": "$(italic)Элемент «Логистика»/$"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Компрессоры",
+  "description": "Компрессоры сжимают воздух и создают $(l:base_concepts/pressure)давление/$. Именно они служат источниками энергии в $(pncr).",
+  "icon": "pneumaticcraft:air_compressor",
+  "sortnum": 1
+}

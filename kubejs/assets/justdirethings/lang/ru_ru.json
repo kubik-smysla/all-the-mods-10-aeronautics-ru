@@ -1,0 +1,15 @@
+{
+  "block.justdirethings.gooblock_tier1": "Слизь первогеля",
+  "block.justdirethings.gooblock_tier2": "Слизь огнецвета",
+  "block.justdirethings.gooblock_tier3": "Слизь мерцания Пустоты",
+  "block.justdirethings.gooblock_tier4": "Слизь теневого импульса",
+  "entity.justdirethings.creature_catcher": "Ловец существ",
+  "entity.justdirethings.justdireareaeffectcloud": "Облако эффекта",
+  "entity.justdirethings.justdirearrow": "Ужасная стрела",
+  "entity.justdirethings.portal_entity": "Ужасный портал",
+  "entity.justdirethings.portal_projectile": "Портальный снаряд",
+  "item.justdirethings.celestigem": "Небесный самоцвет",
+  "itemGroup.DeferredHolder{ResourceKey[minecraft:creative_mode_tab / justdirethings:justdirethings]}": "Just Dire Things",
+  "justdirethings.flight.detailtext": "Полёт как в творческом режиме",
+  "justdirethings.key.category": "Just Dire Things"
+}

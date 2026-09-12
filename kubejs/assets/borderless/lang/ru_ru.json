@@ -1,0 +1,23 @@
+{
+  "borderless.best": "Автоматически выбирает лучший полноэкранный режим для вашей операционной системы. Рекомендуемый вариант.",
+  "borderless.borderless": "Окно разворачивается на весь экран в соответствии с разрешением монитора, а его рамка скрывается — внешне это выглядит как обычный полноэкранный режим.\n\nЛучший вариант для Windows.",
+  "borderless.config.apply": "Применить",
+  "borderless.config.changed": "Если полноэкранный режим применился неправильно, перезапустите Minecraft. Если это не поможет, возможно, ваша операционная система поддерживается не полностью.",
+  "borderless.config.disabled.description": "Режим без рамки выключен. Используется обычный полноэкранный режим Minecraft.",
+  "borderless.config.enabled": "Включено",
+  "borderless.config.enabled.tooltip": "Включить или выключить режим без рамки",
+  "borderless.config.focus_loss": "При потере фокуса",
+  "borderless.config.focus_loss.do_nothing": "Оставить видимым",
+  "borderless.config.focus_loss.minimize": "Свернуть",
+  "borderless.config.focus_loss.switch_to_windowed": "Перейти в оконный режим",
+  "borderless.config.fullscreen_mode": "Полноэкранный режим",
+  "borderless.config.fullscreen_mode.best": "Оптимальный",
+  "borderless.config.fullscreen_mode.borderless": "Без рамки",
+  "borderless.config.fullscreen_mode.native": "Обычный",
+  "borderless.config.title": "Настройки окна без рамки",
+  "borderless.config.video_settings_button": "Окно без рамки...",
+  "borderless.config.video_settings_button.tooltip": "Дополнительные настройки полноэкранного режима без рамки",
+  "borderless.native.do_nothing": "Обычный полноэкранный режим Minecraft, но при потере фокуса окно остаётся видимым. В зависимости от операционной системы оно может отображаться поверх остальных окон.\n\nЛучший вариант для большинства дистрибутивов Linux с поддержкой X11.",
+  "borderless.native.minimize": "Обычный полноэкранный режим Minecraft, при котором окно сворачивается после потери фокуса.\n\nЛучший вариант для неизвестных операционных систем.",
+  "borderless.native.switch_to_windowed": "Обычный полноэкранный режим Minecraft, который при потере фокуса переключается в оконный режим."
+}

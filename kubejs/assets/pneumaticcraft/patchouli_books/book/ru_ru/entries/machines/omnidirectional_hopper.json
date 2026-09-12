@@ -1,0 +1,33 @@
+{
+  "name": "Всенаправленная воронка",
+  "icon": "pneumaticcraft:omnidirectional_hopper",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Всенаправленная воронка/$ похожа на обычную $(item)воронку/$, но её можно направить $(italic)в любую/$ сторону. Она принимает $(l:base_concepts/upgrades)улучшения/$, способные значительно ускорить работу, и не расходует $(l:base_concepts/pressure)воздух/$, поэтому очень полезна в начале игры."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:omnidirectional_hopper",
+      "text": "При установке $(9)вход/$ воронки смотрит на игрока, а $(6)выход/$ — на блок, к которому она приставлена.$(p)Щёлкните по воронке $(thing)правой кнопкой/$ с $(l:tools/pneumatic_wrench)пневматическим ключом/$, чтобы повернуть вход. Щелчок $(thing)с приседанием/$ поворачивает выход."
+    },
+    {
+      "type": "text",
+      "title": "Улучшение раздатчика",
+      "flag": "pneumaticcraft:omniHopperDispenser",
+      "text": "С $(l:base_concepts/upgrades#dispenser)улучшением раздатчика/$ воронка выбрасывает предметы в мир со стороны $(6)выхода/$, если там нет хранилища.$(p)Она становится улучшенным $(item)выбрасывателем/$: более быстрым, точным и удобным для $(#f00)управления красным камнем/$."
+    },
+    {
+      "type": "text",
+      "title": "Улучшение радара сущностей",
+      "text": "С $(l:base_concepts/upgrades#entity_tracker)радаром сущностей/$ воронка забирает предметы у сущностей перед $(9)входом/$. Чтобы запретить извлечение из определённого вида, добавьте его в тег $(thing)pneumaticcraft:omnihopper_blacklisted/$. Жители включены в запрет по умолчанию, иначе могли бы стать бесконечным источником предметов."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание всенаправленной воронки",
+      "recipe": "pneumaticcraft:omnidirectional_hopper"
+    }
+  ]
+}

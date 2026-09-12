@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Ждать»",
+  "icon": "pneumaticcraft:textures/progwidgets/wait_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ ничего не делает в течение заданного времени. Подключите элемент $(l:programming/text)«Текст»/$ и укажите длительность.$(p)Поддерживаются следующие форматы:$(li)$(thing)20/$ — ждать 1 секунду, то есть 20 тактов;$(li)$(thing)10s/$ — ждать 10 секунд;$(li)$(thing)5m/$ — ждать 5 минут."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/wait_piece.png"
+      ],
+      "text": "$(italic)Годо/$"
+    }
+  ]
+}

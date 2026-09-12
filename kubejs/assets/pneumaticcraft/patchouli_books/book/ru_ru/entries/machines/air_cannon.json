@@ -1,0 +1,22 @@
+{
+  "name": "Воздушная пушка",
+  "icon": "pneumaticcraft:air_cannon",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Воздушная пушка/$ переносит предметы по воздуху на значительное расстояние, используя $(l:base_concepts/pressure)сжатый воздух/$ как движущую силу.$(p)Для наведения нужен $(l:tools/gps_tool)GPS-инструмент/$. После настройки цели его можно вынуть из $(item)пушки/$ и использовать снова.$(p)Выстрел запускается $(#f00)импульсом красного камня/$."
+    },
+    {
+      "type": "text",
+      "title": "Улучшения",
+      "text": "С $(l:base_concepts/upgrades#dispenser)улучшением раздатчика/$ $(item)воздушная пушка/$ использует некоторые предметы как обычный $(item)раздатчик/$ — например, поджигает динамит или выпускает огненные заряды.$(p)С $(l:base_concepts/upgrades#entity_tracker)радаром сущностей/$ $(item)пушка/$ вместо предмета запускает ближайшую сущность, включая самого игрока."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание воздушной пушки",
+      "recipe": "pneumaticcraft:air_cannon"
+    }
+  ]
+}

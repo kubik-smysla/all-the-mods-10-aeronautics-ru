@@ -1,0 +1,18 @@
+{
+  "name": "Пчела-сахарница",
+  "icon": "minecraft:cocoa_beans",
+  "read_by_default": true,
+  "category": "productivebees:bees_wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Пчела-сахарница",
+      "text": "Эта маленькая теплолюбивая пчела встречается в тропиках и производит особые, невероятно вкусные соты.$(br)Она способна находить какао-бобы, даже если те выращены за пределами привычного климата.",
+      "anchor": "sugarbag"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:sugarbag'}"
+    }
+  ]
+}

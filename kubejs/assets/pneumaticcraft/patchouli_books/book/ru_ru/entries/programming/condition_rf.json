@@ -1,0 +1,19 @@
+{
+  "name": "Элемент «Условие: RF»",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_rf_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это элемент $(l:programming/conditions)«Условие»/$.$(p)$(thing)«Условие: RF»/$ удалённо проверяет, соответствует ли запас $(thing)Forge Energy (FE)/$ в блоках подключённой $(l:programming/area)области/$ заданному порогу FE.$(p)$(italic)Несмотря на название, проверяется FE, а не RF (Redstone Flux). Имя осталось по историческим причинам./$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_rf_piece.png"
+      ],
+      "text": "$(italic)Элемент «Условие: RF»/$"
+    }
+  ]
+}
